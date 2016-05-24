@@ -1,0 +1,326 @@
+/** Calendar **/
+
+.path-calendar h2, .path-calendar h3 {
+	text-align: center;
+}
+.path-calendar .block h2 {
+  text-align: left;
+}
+.path-calendar .maincalendar {
+  height: 100%;
+}
+.path-calendar .maincalendar .heightcontainer {
+	border-radius: 3px;
+}
+.path-calendar .maincalendar .bottom {
+	width: 100%;
+	text-align: center;
+	padding:5px 0 0;
+}
+.path-calendar .maincalendar, .path-calendar .sidecalendar {
+	vertical-align: top;
+	border: 0;
+	padding: 0;	
+}
+.path-calendar .sidecalendar {
+	width: 200px;
+}
+.path-calendar td.sidecalendar {
+	border-width:0px;
+}
+.path-calendar td.sidecalendar .block {
+	border: 0;	
+	padding-right: 10px;
+}
+.path-calendar .heightcontainer {
+	border: 1px solid #BEDAE8;
+}
+.path-calendar .maincalendar table.calendarmonth {
+	border-collapse: separate;
+	margin: 0px auto;
+	width: 98%;
+	border-spacing: 2px;
+}
+.path-calendar .maincalendar table.calendarmonth th {
+	padding:5px;
+	border-bottom: 2px solid #c9c9c9;
+}
+.path-calendar .maincalendar table.calendarmonth td {
+	height: 5em;
+	padding-left: 2px;
+	padding-top: 4px;
+	line-height:1.2em;
+	font-size:0.8em;
+}
+.path-calendar .maincalendar table.calendarmonth td, .block .minicalendar td, .block .minicalendar th {
+	width:14%;
+	vertical-align:top;
+}
+.block .minicalendar td {
+	text-align: center;
+}
+.path-calendar .maincalendar table.calendarmonth td table td {
+	height: auto;
+}
+.path-calendar .maincalendar div.header {font-weight:bold;padding:6px 10px;}
+
+.path-calendar .maincalendar .buttons {
+	float: right;
+}
+.path-calendar .maincalendar .filters table, .path-calendar .sidecalendar .filters table, .block.block_calendar_month .filters table {
+	border-collapse:separate;
+	border-spacing: 2px;
+	padding: 2px;
+	width: 100%;
+	background-color: #EFF7FE;
+}
+.path-calendar .maincalendar .filters {
+	padding: 10px;
+}
+.path-calendar .sidecalendar .filters {
+	padding: 5px;
+	border: 1px solid #c9c9c9;
+	font-size:0.8em;
+}
+.path-calendar .maincalendar .cal_courses_flt {text-align:center;margin:0;}
+
+.path-calendar .maincalendar .controls {
+	clear:both;
+	padding:10px;
+	font-size:15px;
+	background-color: #EFF7FE;
+  border-top: 1px solid #BEDAE8;
+	border-bottom: 1px solid #BEDAE8;
+  width: auto;
+}
+.path-calendar .maincalendar .day {
+  font-weight: bold;
+}
+.path-calendar .maincalendar table.calendarmonth ul.events-underway {
+  color:#999999;
+}
+.path-calendar .maincalendar table.calendarmonth ul.events-new, .path-calendar .maincalendar table.calendarmonth ul.events-underway {
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+.path-calendar .maincalendar table.calendarmonth ul li {
+	margin-top: 4px;
+}
+
+.block .minicalendar {
+  width: 180px;
+  margin: 5px auto;
+	font-size:0.85em;	
+	padding:2px;
+	border: 1px solid #E1E8EA;
+  background-color: #FCFDFF; 
+	border-collapse:separate;
+  border-radius: 3px;
+	border-spacing:1px !important;	
+}
+
+.block .minicalendar th {
+	padding: 0px 1px;
+}
+.path-calendar td.sidecalendar .minicalendartop {
+	border: 1px solid #c9c9c9;	
+	padding: 10px 0;	
+	margin-top: 0;
+}
+.minicalendarblock {	
+	padding: 10px 4px 0;
+	border-collapse: collapse;
+	margin-top: 0px;	
+}
+
+.block-region .block .content .minicalendarblock h3 {
+  margin: 0;
+  text-align: center;  
+}
+.path-calendar .maincalendar .eventlist {
+	padding: 10px;
+}
+.path-calendar .maincalendar .eventlist .topic {
+	padding: 5px;
+	border-style:solid;
+	border-width: 0px;
+	border-bottom-color: #BEDAE8;
+	border-bottom-width: 1px;
+}
+.path-calendar .maincalendar .eventlist .event {
+	width:100%;
+	margin-bottom:10px;
+	border-spacing:0px;
+	border-collapse:separate;
+	border:1px solid #bedae8;
+}
+.path-calendar .maincalendar .eventlist .event .referer {
+  font-weight:bold;
+}
+.path-calendar .maincalendar .eventlist .event .topic,
+.path-calendar .maincalendar .eventlist .event .picture,
+.path-calendar .maincalendar .eventlist .event .side {
+  background-color:#EFF7FE;
+}
+.path-calendar .maincalendar .eventlist .event .name {
+	float:left;
+}
+.path-calendar .maincalendar .eventlist .event .course {
+	clear:left;
+	float:left;
+	font-size:0.8em;
+}
+.path-calendar .maincalendar .eventlist .event .date {
+	float:right;
+}
+.path-calendar .maincalendar .eventlist .event .description .commands {
+	width:100%;
+	text-align: right;
+}
+.path-calendar .maincalendar .eventlist .event .description {
+	padding:5px;
+}
+.path-calendar .maincalendar .eventlist .event .picture {
+	padding:8px;
+	border-right: 1px solid #BEDAE8;
+}
+.path-calendar .maincalendar .eventlist .event .side {
+	width:32px;
+	border-right: 1px solid #BEDAE8;
+}
+.path-calendar #selecteventtype table {
+	margin:auto;
+}
+.path-calendar .event_global, .path-calendar .event_course, .path-calendar .event_group, .path-calendar .event_user, .minicalendar .event_global, .minicalendar .event_course, .minicalendar .event_group, .minicalendar .event_user {
+	border:2px solid !important;
+}
+.path-calendar .event_global, .minicalendar .event_global, .block_calendar_month .event_global {
+  border-color:#CBF3C7 !important;
+  background-color:#CBF3C7;
+}
+.path-calendar .event_course, .minicalendar .event_course, .block_calendar_month .event_course {
+  border-color:#FACDCF !important;
+  background-color:#FACDCF;
+}
+.path-calendar .event_group, .minicalendar .event_group, .block_calendar_month .event_group {
+  border-color:#C9C6F3 !important;
+  background-color:#C9C6F3;
+}
+.path-calendar .event_user, .minicalendar .event_user, .block_calendar_month .event_user {
+  border-color:#FFEECF !important;
+  background-color:#FFEECF;
+}
+.path-calendar .duration_global, .minicalendar .duration_global {
+  border-top-color:#CBF3C7 !important;
+  border-bottom-color:#CBF3C7 !important;
+}
+.path-calendar .duration_course, .minicalendar .duration_course {
+  border-top-color:#FACDCF !important;
+  border-bottom-color:#FACDCF !important;
+}
+.path-calendar .duration_group, .minicalendar .duration_group {
+  border-top-color:#C9C6F3 !important;
+  border-bottom-color:#C9C6F3 !important;
+}
+.path-calendar .duration_user, .minicalendar .duration_user {
+  border-top-color:#FFEECF !important;
+  border-bottom-color:#FFEECF !important;
+}
+.path-calendar .duration_global, .path-calendar .duration_course, .path-calendar .duration_group, .path-calendar .duration_user, .minicalendar .duration_global, .minicalendar .duration_course, .minicalendar .duration_group, .minicalendar .duration_user {
+	border-top:2px solid !important;
+	border-bottom:2px solid !important;
+}
+.path-calendar .weekend, .minicalendar .weekend {
+  color:#FF0000;
+}
+.path-calendar .today, .minicalendar .today {
+	border:2px solid #c9c9c9 !important;	
+}
+.path-calendar .nottoday, .minicalendar .today {
+	border: 1px solid #c9c9c9;	
+}
+.cal_popup_fg {
+  background-color:#FFFFFF;
+}
+.cal_popup_bg {
+	padding:0px;
+	margin:0px;
+	border:1px solid #666;	
+    background-color:#FFFFFF;
+}
+.cal_popup_close {
+	margin-right:5px;
+	font-family:sans-serif;
+	font-size:0.8em;
+	font-weight:bold;
+}
+.cal_popup_caption {
+	border-width:0px 0px 1px 0px;
+	border-style:solid;
+	padding-bottom:2px;
+	font-family:sans-serif;
+    font-size:0.8em;
+    font-weight:bold;
+}
+table.calendar-controls {
+	width: 100%;
+}
+table.calendar-controls .previous {
+	text-align: left;
+}
+table.calendar-controls .current, .calendar-controls .current {
+	text-align: center;	
+	width: 76%;
+}
+table.calendar-controls .next  {
+	text-align: right;
+}
+table.calendar-controls .previous, table.calendar-controls .next, 
+.calendar-controls .previous, .calendar-controls .next {
+	width: 12%;
+}
+/*Accessibility: controls now div and span, 20:58:20% or 12:74:12% */
+.calendar-controls .current, .calendar-controls .previous,
+.calendar-controls .next {	
+	border-top: 1px solid #fff;	/*ie7 bugfix*/
+	display: block;
+	float: left;		
+}
+.heightcontainer .calendar-controls .current, .heightcontainer .calendar-controls .previous,
+.heightcontainer .calendar-controls .next  {
+  border-top: 1px solid #EFF7FE;
+}
+.path-calendar .maincalendar .calendar-controls .current {font-weight: bold; margin: 0;
+width: 15;font-size: 16px;}
+
+.path-calendar .maincalendar .calendar-controls .previous, .path-calendar .maincalendar .calendar-controls .next {
+	width: 30%;
+}
+.path-calendar .maincalendar .calendar-controls .next {
+	text-align: right;
+}
+.path-calendar .indent {
+  padding-left: 20px;
+}
+.block .filters td {
+  font-size: .8em;
+}
+.block .content h3.eventskey {
+  margin-top:0.5em;
+  margin-bottom:0;
+  margin-left:0.5em;
+}
+
+.block .minicalendar th, .block .minicalendar td {
+  font-size:12px;
+  border: none;  
+}
+
+.path-calendar #region-post .block .content {
+  padding: 0;
+}
+
+.block .calendar_filters.filters table {
+  padding: 10px 6px;
+}

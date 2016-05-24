@@ -1,0 +1,265 @@
+/***Blocks***/
+
+/*Accessibility: Skip block link, for keyboard-only users. */
+a.skip-block, a.skip {
+  position: absolute;
+  top: -1000em;
+  font-size: 0.85em;
+}
+a.skip-block:focus, a.skip-block:active,
+a.skip:focus, a.skip:active {
+  position: static;
+  display: block;
+}
+.skip-block-to, #maincontent {
+  display: block;
+  height: 1px;
+}
+
+.block {
+  margin-bottom:1em;  
+  border: 1px solid #C9C9C9;
+  border-radius: 3px;
+}
+.block-region .block h2 {
+  margin:0;
+  padding:0;
+}
+.block-region .block .header, .block-region .block h2.header {
+  text-align: left;
+  margin:0;
+  padding:4px;
+  padding-top:0;
+  border: 1px solid #ccc;  
+  border-bottom: none;
+}
+.block-region .block .header {
+  background: #2E91C6 url('[[pix:theme|block_header_bg]]') repeat-x top left;
+  border: 1px solid #fff;
+  color:#fff;
+  border-radius: 3px 3px 0 0;
+}
+.block-region .block .header .block_action{
+  float:right;
+  height:16px;  
+  margin: 0;
+}
+
+.block .header .block_action input {
+  margin: 1px 0 0 2px;
+}
+.block-region .block .header, #calendar .block-region .block div.header {
+  /*width: 187px !important;*/
+  text-align: left;   
+  padding: 5px 5px 4px 8px; 
+  border: 1 solid #fff;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.block-region .block .header h2 {
+  font-size:13px;
+  margin: 0;
+}
+
+.block-region .block .header .block-region .block_action img, .block-region .block .header .block-region .block_action input {
+  height:11px;
+  width:11px;
+}
+
+.block-region .block .block-region .block-hider-show, .block-region .block.hidden .block-region .block-hider-hide {
+  display:none;
+}
+
+.block-region .block.hidden .block-region .block-hider-show {
+  display:inline;
+}
+
+.block-region .block .block-region .block-hider-show, .block-region .block .block-region .block-hider-hide {
+  cursor:pointer;
+}
+
+.block-region .block .header .commands {    
+  margin: 4px -5px -4px -8px;
+  background-color: #FFF; 
+  font-size:1em;    
+}
+
+.block-region .block .header .commands a img {
+  margin: 4px 2px 0;
+}
+
+.block-region .block .content {
+  padding: 4px 4px 10px 4px;    
+  background: url([[pix:theme|block_bg]]) no-repeat bottom; 
+  border-top: 1px solid #c9c9c9;
+  margin: 0 1px;
+  border-radius: 0 0 3px 3px;
+  line-height: 1.2em;
+  font-size: 1em;
+}
+.block-region .block .content .head {
+  margin-top: 10px;
+}
+.block-region .block .content hr {
+  height:1px;
+  margin:4px 0; 
+  border:none;  
+  border-top:1px solid #c9c9c9; 
+}
+
+.block-region .block .content h3, .block-region .block .content h2 {
+  text-align: left;
+  font-size:1.0em;
+}
+.block-region .block .content h2 {
+  margin:1.5em 0 0;
+  padding:0;
+}
+.block-region .block .content .c0 img.icon {
+  margin:0px;
+}
+.block-region .block .content .list, .unlist, .inline-list {
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+.block-region .block .content .list {
+  width: 100%;
+}
+.block-region .block .content .list li {
+  clear: left;
+}
+.block-region .block .content .inline-list li, .inline-list li {
+  display: inline;
+}
+.block-region .block .content ul.list li.listentry {
+  clear:both;
+}
+.block-region .block .content div.info {
+  text-align:center;
+}
+.block-region .block div.column {
+  margin:0px;
+  margin-right:4px;
+  padding:0px;
+}
+.block-region .block div.column.c0 {
+  float: left;
+}
+.block-region .block div.column.c1 {
+  display: inline;
+}
+#region-pre .hidden .header, #region-post .hidden .header {
+  border:0px;
+}
+.block-region .block .header .block-region .block_action img.block-region .block-hider-show {
+  /*background: url([[pix:theme|t/switch_minus]]) no-repeat bottom;*/
+}
+
+.block-region .block .header .block-region .block_action img.block-region .block-hider-hide {
+  /*background: url([[pix:theme|t/switch_plus]]) no-repeat bottom;*/
+}
+
+.block-region .block.hidden .content {
+  display:none;
+}
+
+.block-region .block .list {
+  width: 100%;
+}
+.block-region .block .list .c0 {
+  padding: 2px;
+}
+.block-region .block .footer {
+  margin-bottom: 4px;
+  text-align:center;
+  font-size:1em;
+  clear:both;
+}
+.block-region .block .head,
+.block-region .block .info,
+.block-region .block .event {
+  font-size: 1em;
+}
+.block-region .block .date {
+  font-style: italic;
+}
+.block-region .block .header .icon.hide, .block-region .block .header .icon.edit {
+  margin-right: 6px;
+}
+.block-region .block img.userpicture {
+  width:16px;
+  height:16px;
+  margin-right:4px;
+  float: left;
+}
+.block-region .blockconfigtable {
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.block-region .blockconfigtable td.label {
+  text-align: right;
+  width: 50%;
+}
+.block-region .blockconfigtable td.value {
+  text-align: left;
+  width: 50%;
+}
+.block-region .blockconfigtable td.submit {
+  text-align: center;
+}
+.block-region .block_site_main_menu .footer select {
+  font-size: 0.8em;
+}
+.block-region .blockconfiginstancecontent .tabs {
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block-region .block_messages .content {
+  text-align:left;
+  font-size:0.75em;
+  padding-top:5px;
+}
+.block-region .block_recent_activitysideblock .h3 {
+  padding-top:5px;
+}
+.block-region .block_online_users .listentry div.user,
+.block-region .block_messages .listentry div.user {
+  float:left;
+  width: 178px;
+}
+.block-region .block_online_users .listentry div.message,
+.block-region .block_messages .listentry div.message {
+  float:right;
+}
+.block-region .block_course_list .footer {
+  margin-top: 5px;
+}
+#rssfeeds {
+  margin-left: auto;
+  margin-right: auto;
+}
+#block_rss {
+  text-align: center;
+}
+.block-region .block_search_forums .invisiblefieldset {
+  display: block;
+}
+.block-region .block_tag_youtube .youtube-thumb {
+  padding: 3px;
+  padding-bottom: 0.5em;
+  display: block;
+  float: left;
+}
+.block-region .block_tag_youtube .yt-video-entry li {
+  clear: left;
+}
+.block-region .block_tag_flickr .flickr-photos {
+ padding:3px;
+}
+
+.block_settings .block_tree li.item_with_icon > p img {
+  top: 0;
+}

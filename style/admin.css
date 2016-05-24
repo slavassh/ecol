@@ -1,0 +1,327 @@
+/***Admin***/
+body#admin-index .c0 {
+	vertical-align: top;
+	background-color: #FAFAFA;
+}
+body#admin-index .c1 {
+  vertical-align: middle;
+}
+#admin-index .copyrightnotice {
+  margin: auto;
+  text-align: center;
+}
+#admin-index .adminerror,
+#admin-index .adminwarning {
+  text-align:center;
+  border-width: 1px;
+  border-style: solid;
+  margin:20px;
+}
+#admin-index .adminerror .singlebutton,
+#admin-index .adminwarning .singlebutton,
+#admin-index #region-main-box .singlebutton {
+  text-align:center;
+  margin:20px;
+}
+body#admin-blocks table.generaltable th,
+body#admin-filters table.generaltable th,
+body#admin-modules table.generaltable th,
+body#admin-auth table.generaltable th {
+  white-space: nowrap;
+}
+body#admin-modules table.generaltable td.cell, body#admin-modules .generaltablecell {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+body#admin-blocks table.generaltable th,
+body#admin-blocks table.generaltable td.cell,
+body#admin-filters table.generaltable th,
+body#admin-filters table.generaltable td.cell,
+body#admin-modules table.generaltable th,
+body#admin-modules table.generaltable td.cell,
+body#admin-auth table.generaltable th,
+body#admin-auth table.generaltable td.cell {
+  padding: 4px;
+  text-align: center;
+  vertical-align: middle;
+}
+body#admin-blocks table.generaltable th.c0,
+body#admin-blocks table.generaltable td.c0,
+body#admin-filters table.generaltable th.c0,
+body#admin-filters table.generaltable td.c0,
+body#admin-modules table.generaltable th.c0,
+body#admin-modules table.generaltable td.c0,
+body#admin-auth table.generaltable th.c0,
+body#admin-auth table.generaltable td.c0 {
+  text-align: left;
+}
+body#admin-blocks table.generaltable td.cell, body#admin-blocks .generaltablecell {
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+#admin-blocks #admin-config .confighelp, 
+body#admin-config .confighelp {
+	display: block;
+	padding-bottom: 20px;
+}
+#admin-roles-manage table.generalbox {
+  margin: auto;
+}
+#admin-roles-allowassign .buttons,
+#admin-roles-allowoverride .buttons,
+#admin-roles-manage .buttons,
+#admin-roles-override .buttons {
+  margin: 20px;
+  text-align:center;
+}
+#admin-roles-manage .buttons .singlebutton,
+#admin-roles-override .buttons .singlebutton {
+  display: inline;
+  padding: 5px;
+}
+#admin-roles-manage .selector,
+#admin-roles-assign .selector,
+#admin-roles-override .selector {
+  text-align:center;
+  margin-bottom:1em;
+}
+#admin-roles-manage table.roledesc,
+#admin-roles-override table.roledesc {
+  margin-left:auto;
+  margin-right:auto;
+}
+#admin-roles-manage table.rolecap,
+#admin-roles-override table.rolecap {
+  margin-left:auto;
+  margin-right:auto;
+}
+.rolecap .inherit,
+.rolecap .allow,
+.rolecap .prevent,
+.rolecap .prohibit {
+  text-align:center;
+}
+#admin-roles-manage .rolecap .cap-desc .cap-name,
+#admin-roles-override .rolecap .cap-desc .cap-name {
+  display: block;
+}
+#admin-roles-override .cell.c1,
+#admin-roles-assign .cell.c3,
+#admin-roles-assign .cell.c1 {
+  padding-top: 0.75em;
+}
+#admin-roles-override .sefeoverridenotice {
+  text-align:center;
+}
+body#admin-modules table.generaltable td.c0 {
+  white-space: nowrap;
+}
+.admin .generalboxcontent {
+  background-color:#EFF7FE; 
+}
+#admin-stickyblocks .generalbox {
+  text-align:center;
+}
+.admin .generalbox {
+  border-color:#9FB6C6; 
+}
+.admin .informationbox {
+  border-color:#9FB6C6; 
+  background-color:#FFFFFF; 
+}
+#admin-maintenance .buttons {
+  text-align:center;
+}
+#admin-report-unittest-index .exception pre {
+  padding: 8px;
+}
+#admin-report-unittest-index .unittestsummary {
+  padding: 8px;
+  margin-top: 1em;
+}
+#admin-report-security-index #timewarning {
+  text-align:center;
+}
+#admin-report-security-index .timewarninghidden {
+  display:none;
+}
+#admin-report-courseoverview-index .graph,
+#course-report-stats-index .graph,
+#admin-report-stats-index .graph {
+  text-align: center;
+  margin-bottom: 1em;
+}
+#admin-lang .generalbox {
+  text-align:center;
+  margin:auto;
+  border-width: 1px;
+  border-style: solid;
+}
+#admin-langimport .generalbox {
+  text-align:center;
+  margin:auto;
+  border-width: 1px;
+  border-style: solid;
+}
+#admin-langimport .generalbox table {
+  text-align:center;
+  margin:auto;
+}
+#admin-lang .translator {
+  border-width: 1px;
+  border-style: solid;
+}
+#admin-user-user_bulk #users .fgroup {
+  white-space: nowrap;
+}
+.plugincompattable caption {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 130%;
+}
+.plugincheckwrapper td{
+  border: 1px #bbbbbb solid;
+}
+.plugincheckwrapper{
+    width: 100%;
+}
+#id_realname {
+  margin-left: 10px;
+}
+
+/* Admin settings */
+#adminsettings div.form-item {
+  clear: both;
+  margin: 1em 0 2em 0;
+}
+#adminsettings .form-label {
+  display: block;
+  float: left;
+  width: 12.5em;
+  text-align: right;
+}
+#adminsettings .form-shortname {
+  display: block;
+  font-size: 10px;
+  color: #828282;
+}
+#adminsettings .form-setting {
+  display: block;
+  margin-left: 13em;
+  text-align: left;
+}
+#adminsettings .form-defaultinfo {
+  margin-left: 5px;
+  display: inline;
+  color: #828282;
+}
+.form-group {
+  display: inline;
+}
+#adminsettings .defaultsnext {
+  margin-right: 0.5em;
+  display: inline;
+}
+.form-multicheckbox input {
+  margin-right: 0.5em;
+}
+
+#adminsettings .form-item .form-description {
+  display: block;
+  margin: 0.5em 0 0em 17em;
+  text-align: left;
+  font-size: .8em;
+}
+#adminsettings fieldset {
+  margin-top: 1em;
+  padding: 1em 0.5em;
+  border-radius: 3px;
+}
+#adminsettings legend {
+  display: none;
+}
+#adminsettings fieldset.error {
+  margin: 0.2em 0 0.5em 0;
+  padding: 0.5em 0 0 0;
+}
+#adminsettings fieldset.error legend {
+  display: block;
+}
+#adminsettings .form-multicheckbox li {
+  list-style: none;
+}
+#adminsettings .form-multicheckbox ul {
+  padding:0;
+  margin:0;
+}
+#adminsettings .form-item .pathok,
+#adminsettings .form-item .patherror {
+  margin-left: 0.5em;
+}
+#adminsettings .form-htmlarea {
+  width:  640px;
+  display:inline;
+}
+#adminsettings .form-htmlarea .htmlarea {
+  width:  640px;
+  display:block;
+}
+#adminsettings #admin-calendar_weekend table {
+  width: 100%;
+}
+#adminsettings #admin-calendar_weekend table td {
+  text-align: center;
+}
+#adminsettings #admin-calendar_weekend table td label {
+  width: 100%;
+  text-align: center;
+  float: none;
+}
+.environmentbox {
+  margin-top: 1em;
+}
+.form-buttons {
+  margin: 10px 0 0 13em;
+}
+.adminsearchform {
+  padding-top:10px;
+}
+.adminsearchform input {
+	margin-right: 4px;
+}
+.block_admin_tree .admintree {
+  text-align:left;
+}
+.block_admin_tree .admintree .depth1 {
+  padding-left: 16px;
+}
+.block_admin_tree .admintree .depth2 {
+  padding-left: 32px;
+}
+.block_admin_tree .admintree .depth3 {
+  padding-left: 48px;
+}
+.block_admin_tree .admintree .depth4 {
+  padding-left: 64px;
+}
+#trustedhosts .generaltable {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+#trustedhosts .standard {
+  width: auto;
+}
+#mnetconfig table {
+  margin-left: auto;
+  margin-right: auto;
+}
+#admin-uploaduser table#uuresults {
+  margin-bottom: 2em;
+}
+#admin-uploaduser table#uupreview,
+#admin-uploaduser table#uuresults td.cell {
+  padding-left: 3px;
+  padding-right: 3px;
+}
