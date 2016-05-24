@@ -1119,6 +1119,35 @@ div.allcoursegrades {
   background-color: #fff;
 }
 
+.grade-report-user th {
+  text-align: left;  
+}
+
+.grade-report-user .column-leader.evend2 {
+  background-color: #aaa;  
+}
+
+.grade-report-user .column-leader.oddd2 {
+  background-color: #ddd;
+}
+
+.grade-report-user th.level2.b1b, .grade-report-user .column-leader.level2.b1t,
+.grade-report-user .level1.baggt {
+  border-top: 1px solid #aaa;  
+}
+
+.grade-report-user .generaltable {
+  border: 1px solid #aaa;
+}
+
+.grade-report-user th.level2.b1b, .grade-report-user .header {
+  border-bottom: 1px solid #ddd;
+}
+
+.level2.baggt {
+  border-top: 1px solid #ddd;
+}
+
 /***Login***/
 .loginbox {
   margin-top:15px;
@@ -3467,3 +3496,9 @@ acronym {
 
 
 
+
+
+
+.dir-ltr, .mdl-left, .dir-rtl .mdl-right {
+  text-align: left;
+}
