@@ -1147,6 +1147,19 @@ div.allcoursegrades {
 .level2.baggt {
   border-top: 1px solid #ddd;
 }
+
+/***Login***/
+.loginbox {
+  margin-top:15px;
+  margin-bottom:15px;
+  border:1px solid #BEDAE8;
+  width:50%;
+  margin-left:25%;
+  left: 25%;
+  overflow:hidden;
+  padding: 0;
+  border-radius: 3px;
+}
 .loginbox .content {
   border-color:#bedae8;
 }
